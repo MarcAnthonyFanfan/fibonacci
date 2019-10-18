@@ -8,3 +8,4 @@ for i in {-1..47}; do
 		printf "PASSED TEST Fib(${i})\n"
 	fi
 done
+rm ../temp/*
