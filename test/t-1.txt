@@ -1,0 +1,3 @@
+ARGUMENT ERROR
+<#> supplied less than 0
+Cannot calculate Fib() of a negative number
