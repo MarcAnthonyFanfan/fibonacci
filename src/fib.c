@@ -9,7 +9,7 @@ void print_fib();
 int fib(int n);
 int error(int e);
 
-int main(int argc, char *argv[]) 
+int main(int argc, char *argv[]) { 
 	g_memo = (int*)calloc(MAX_FIB+1, sizeof(int));
 	if(argc != 2) {
 		return error(1);
